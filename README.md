@@ -3,7 +3,6 @@
 a simple way to use websql storage in mordern browers
 
 ##Getting Started
----------------
 
 ###clone this repo
 
@@ -44,7 +43,6 @@ model method
     });
 
     User.find('count(*)', {}, function(){}) //count
-
 
     all(success, error); // find all
     
